@@ -1,7 +1,11 @@
 body {
   width: 100%;
   margin: 0;
-  top: 0
+  top: 0;
+  font-family: monospace;
+}
+h1 {
+  font-family: sans-serif;
 }
 
 #navbar {
@@ -61,23 +65,26 @@ body {
   padding: 10px 30px;
   transition: all .3s linear;
   &:hover {
-    background-color: grey;
+    background-color: grey !important;
   }
 }
 
 #projects {
   margin: 50px auto;
   width: 70%;
+  & h1 {
+    text-align: center;
+  }
   & .oneproject {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   & .projdetails {
-    width: 48%;
+    width: 45%;
+    margin: 0 20px;
     & .note {
-      background: grey;
       margin: 0;
       padding: 3px 0;
       font-size: 0.7rem;
@@ -85,9 +92,13 @@ body {
       text-align: center;
       border-radius: 7px;
     }
+    & .projdesc {
+      height: 40%;
+      overflow: auto;
+    }
   }
   & .projimg {
-    width: 48%;
+    width: 50%;
     height: 200px;
     overflow: hidden;
     position: relative;
