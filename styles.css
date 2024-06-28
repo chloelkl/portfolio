@@ -96,11 +96,12 @@ h1 {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    height: 230px;
   }
   & .projdetails {
     width: 45%;
-    margin: 0 30px;
+    margin: 0 25px;
     & .note {
       margin: 0;
       padding: 3px 0;
@@ -109,8 +110,12 @@ h1 {
       text-align: center;
       border-radius: 7px;
     }
+    & h2 {
+      margin-bottom: 0;
+    }
     & .projdesc {
-      height: 40%;
+      margin: 20px 0;
+      height: 50%;
       overflow: auto;
       text-align: justify;
     }
@@ -119,6 +124,7 @@ h1 {
     width: 50%;
     max-width: 380px;
     height: 200px;
+    margin: auto;
     overflow: hidden;
     position: relative;
     border: solid 3px lightgrey;
@@ -170,6 +176,14 @@ h1 {
     & h3 {
       color: white;
       text-align: center;
+    }
+    & a {
+      text-decoration: none;
+      font-weight: 100;
+      color: lightgrey;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
