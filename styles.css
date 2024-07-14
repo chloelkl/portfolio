@@ -77,12 +77,12 @@ h1 {
 
 .button {
   text-decoration: none;
-  background: #780000;
+  background: #5e1313;
   color: white;
   padding: 10px 30px;
   transition: all .3s linear;
   &:hover {
-    background-color: grey !important;
+    background-color: #573333 !important;
   }
 }
 
