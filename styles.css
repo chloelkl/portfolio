@@ -270,4 +270,12 @@ h1 {
     width: 100% !important;
     height: 200px !important;
   }
+  #certdisplay {
+    & h3 {
+      font-size: 0.8rem;
+    }
+    & a {
+      font-size: 0.65rem;
+    }
+  }
 }
