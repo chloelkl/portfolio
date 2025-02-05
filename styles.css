@@ -86,7 +86,7 @@ h1 {
   }
 }
 
-#projects {
+#projects, #hackathons {
   padding: 50px;
   margin: 0 auto;
   width: 70%;
@@ -97,8 +97,11 @@ h1 {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     height: 230px;
+    &.reverse {
+      flex-direction: row-reverse;
+    }
   }
   & .projdetails {
     width: 45%;
@@ -116,7 +119,7 @@ h1 {
     }
     & .projdesc {
       margin: 20px 0;
-      height: 50%;
+      height: 55%;
       overflow: auto;
       text-align: justify;
       font-size: 0.85rem;
@@ -125,7 +128,7 @@ h1 {
   & .projimg {
     width: 50%;
     max-width: 380px;
-    height: 200px;
+    height: 220px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -241,7 +244,7 @@ h1 {
     max-width: 290px;
   }
 
-  #projects {
+  #projects, #hackathons {
     width: 90%;
     padding: 0;
     & .oneproject {
@@ -249,7 +252,7 @@ h1 {
       height: auto;
     }
     & .reverse {
-      flex-direction: column-reverse !important;
+      flex-direction: column !important;
     }
     & .projdetails {
       width: 90%;
