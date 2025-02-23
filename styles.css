@@ -82,7 +82,7 @@ h1 {
   padding: 10px 30px;
   transition: all .3s linear;
   &:hover {
-    background-color: #573333 !important;
+    background-color: #505050 !important;
   }
 }
 
@@ -99,8 +99,15 @@ h1 {
     width: 100%;
     margin-bottom: 40px;
     height: 230px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     &.reverse {
       flex-direction: row-reverse;
+    }
+    &.show {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
   & .projdetails {
