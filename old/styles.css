@@ -1,0 +1,283 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  top: 0;
+  font-family: monospace;
+}
+h1 {
+  font-family: sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  width: 80%;
+  height: 70px;
+  background: #1b1b1b;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  & a {
+    text-decoration: none;
+    color: #9c9c9c;
+    font-size: 1rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.black-bg {
+  width: 100%;
+  background: black;
+  margin: 0 auto;
+}
+
+.white-bg {
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#welcome {
+  color: white;
+  margin: auto;
+  width: 70%;
+  height: 60vw;
+  max-height: 90vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+#introduction {
+  margin-top: 20%;
+  width: 40%;
+  & p {
+    height: 150px;
+    text-align: justify;
+    font-size: 0.9rem;
+  }
+}
+
+#mypic {
+  margin-top: 20%;
+  width: 35%;
+  & img {
+    width: 100%;
+  border-radius: 50%;
+  }
+}
+
+.button {
+  text-decoration: none;
+  background: #5e1313;
+  color: white;
+  padding: 10px 30px;
+  transition: all .3s linear;
+  &:hover {
+    background-color: #505050 !important;
+  }
+}
+
+#projects, #hackathons {
+  padding: 50px;
+  margin: 0 auto;
+  width: 70%;
+  & h1 {
+    text-align: center;
+  }
+  & .oneproject {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+    height: 230px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    &.reverse {
+      flex-direction: row-reverse;
+    }
+    &.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  & .projdetails {
+    width: 45%;
+    margin: 0 25px;
+    & .note {
+      margin: 0;
+      padding: 3px 0;
+      font-size: 0.7rem;
+      width: 80px;
+      text-align: center;
+      border-radius: 7px;
+    }
+    & h2 {
+      margin-bottom: 0;
+    }
+    & .projdesc {
+      margin: 20px 0;
+      height: 55%;
+      overflow: auto;
+      text-align: justify;
+      font-size: 0.85rem;
+    }
+  }
+  & .projimg {
+    width: 50%;
+    max-width: 380px;
+    height: 220px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border: solid 3px lightgrey;
+    & img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      position: absolute;
+      top: 0;
+      left: 0
+      
+    }
+  }
+}
+
+#certificates {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 95%;
+  & h1 {
+    color: white;
+    text-align: center;
+  }
+}
+
+#certdisplay {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1350px;
+  margin: auto;
+  & .onecert {
+    width: 30%;
+    & .certimg {
+      width: 90%;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+      margin: auto;
+      & img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        top: 0;
+        left: 0
+        
+      }
+    }
+    & h3 {
+      color: white;
+      text-align: center;
+    }
+  }
+}
+
+
+#footer {
+  text-align: center;
+  padding: 20px;
+  & h1 {
+    font-size: large;
+  }
+  & p, a {
+    font-size: large;
+  }
+  & a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+
+  #navbar {
+    width: 100%;
+    height: 50px;
+    & a {
+      font-size: 0.8rem;
+    }
+  }
+
+  #welcome {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: 85vh;
+  }
+
+  #introduction {
+    margin-top: 0;
+    width: 100%;
+    & p {
+      height: auto;
+      margin-bottom: 40px;
+    }
+  }
+  
+  #mypic {
+    margin: 30% auto 0;
+    width: 80%;
+    max-width: 290px;
+  }
+
+  #projects, #hackathons {
+    width: 90%;
+    padding: 0;
+    & .oneproject {
+      flex-direction: column;
+      height: auto;
+    }
+    & .reverse {
+      flex-direction: column !important;
+    }
+    & .projdetails {
+      width: 90%;
+      & h2 {
+        margin-top: 10px;
+      }
+      & .projdesc {
+        margin: 20px 0;
+      }
+    }
+    & .projimg {
+      width: 80%;
+      margin: 30px auto 10px;
+    }
+  }
+
+  .certimg {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  #certdisplay {
+    & h3 {
+      font-size: 0.8rem;
+    }
+  }
+}
