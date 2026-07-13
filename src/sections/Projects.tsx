@@ -11,6 +11,7 @@ function Projects() {
         backgroundRepeat: "repeat",
         backgroundSize: "400px auto",
         backgroundPosition: "top center",
+        marginTop: 15,
       }}
     />
   );

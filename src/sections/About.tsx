@@ -18,8 +18,8 @@ function About() {
         backgroundPosition: "top center",
 
         display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
+        justifyContent: "space-around",
+        pb: 30
 
       }}
     >
