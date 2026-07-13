@@ -5,6 +5,7 @@ function Projects() {
   return (
     <Box
       id="projects"
+      component="section"
       sx={{
         minHeight: "100vh",
         backgroundImage: `url(${whiteBg})`,

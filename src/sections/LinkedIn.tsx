@@ -5,6 +5,7 @@ function LinkedIn() {
   return (
     <Box
       id="linkedin"
+      component="section"
       sx={{
         minHeight: "100vh",
         backgroundImage: `url(${whiteBg})`,

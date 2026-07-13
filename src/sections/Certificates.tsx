@@ -5,6 +5,7 @@ function Certificates() {
   return (
     <Box
       id="certificates"
+      component="section"
       sx={{
         minHeight: "100vh",
         backgroundImage: `url(${oliveBg})`,
