@@ -30,7 +30,7 @@ function About() {
         {/* Left / Top */}
         <Grid size={{ md: 12, lg: 4 }} sx={{ px: 5 }}>
           <Typography variant="h3">
-            Hi, I'm Chloe.
+            Hey, I'm Chloe.
           </Typography>
 
           <Typography sx={{ mt: 2 }}>

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "frogbot",
+    "title": "FrogBot",
+    "subtitle": "Personal project built on Autocode",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2022",
+    "skills": [
+      "JavaScript"
+    ],
+    "layout": {
+      "left": "10%",
+      "top": "5%",
+      "width": "80%",
+      "height": "90%",
+      "borderRadius": "50px"
+    },
+    "gridSize": {
+      "md": 4,
+      "lg": 2.5
+    }
+  },
+  {
+    "id": "wpform",
+    "title": "Work Permit Form",
+    "subtitle": "GovTech internship @ Ministry of Manpower",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2025-2026",
+    "skills": [
+      "Vue",
+      "TypeScript",
+      "Nuxt 3",
+      "GraphQL",
+      "Vitest",
+      "Playwright",
+      "Git"
+    ],
+    "layout": {
+      "left": "10%",
+      "top": "5%",
+      "width": "80%",
+      "height": "90%",
+      "borderRadius": "100px"
+    },
+    "gridSize": {
+      "md": 6,
+      "lg": 5
+    }
+  },
+  {
+    "id": "robloxgame",
+    "title": "Kidnaped; An Escape Room",
+    "subtitle": "Personal project built on Roblox Studio",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2020",
+    "skills": [
+      "Lua",
+      "Object-Oriented Programming",
+      "Game Design"
+    ],
+    "layout": {
+      "left": "5%",
+      "top": "10%",
+      "width": "90%",
+      "height": "75%"
+    },
+    "gridSize": {
+      "md": 5,
+      "lg": 3.5
+    }
+  },
+  {
+    "id": "sustainify",
+    "title": "Sustainify",
+    "subtitle": "Academic project",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2024",
+    "skills": [
+      "React",
+      "Material UI",
+      "Express.js",
+      "Node.js",
+      "Git"
+    ],
+    "layout": {
+      "left": "5%",
+      "top": "5%",
+      "width": "90%",
+      "height": "90%"
+    },
+    "gridSize": {
+      "md": 5,
+      "lg": 4
+    }
+  },
+  {
+    "id": "polyfintech",
+    "title": "PayPal Questle",
+    "subtitle": "Hackathon project @ PolyFinTech 100 API",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2024",
+    "skills": [
+      "Figma",
+      "Ideation"
+    ],
+    "layout": {
+      "left": "10%",
+      "top": "5%",
+      "width": "80%",
+      "height": "90%",
+      "borderRadius": "50px"
+    },
+    "gridSize": {
+      "md": 4,
+      "lg": 2
+    }
+  },
+  {
+    "id": "schedulah",
+    "title": "Schedulah",
+    "subtitle": "Hackathon project @ NUS Hack&Roll",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2026",
+    "skills": [
+      "Figma",
+      "Git",
+      "React",
+      "Material UI",
+      "Supabase",
+      "Node.js"
+    ],
+    "layout": {
+      "left": "15%",
+      "top": "26%",
+      "width": "70%",
+      "height": "70%",
+      "borderRadius": "300px"
+    },
+    "gridSize": {
+      "md": 4,
+      "lg": 2.5
+    }
+  },
+  {
+    "id": "edutecx",
+    "title": "EduTecX",
+    "subtitle": "Academic project",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2023-2024",
+    "skills": [
+      "Python",
+      "Flask",
+      "Git"
+    ],
+    "layout": {
+      "left": "20%",
+      "top": "15%",
+      "width": "60%",
+      "height": "70%"
+    },
+    "gridSize": {
+      "md": 4,
+      "lg": 3.5
+    }
+  }
+]
